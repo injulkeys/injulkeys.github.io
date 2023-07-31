@@ -29,6 +29,14 @@
             max-height: 20px;
             margin-bottom: 10px;
         }
+        .project-image img {
+            display: none;
+        }
+         .project-image a:hover img {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     </style>
 </head>
 <body>
@@ -40,7 +48,10 @@
         <p><strong>Technologies:</strong> Dart, Flutter, JavaScript</p>
         <p><strong>Description:</strong></p>
         <div class="project-image">
+            <a href="#">
+                CareTaker App
             <img src="images/CaretakerApp.png" alt="Project 1">
+            </a>
         </div>
         <div class="project-description">
             <p>
@@ -55,7 +66,10 @@
         <p><strong>Technologies:</strong> Python</p>
         <p><strong>Description:</strong></p>
         <div class="project-image">
+            <a href="#">
+                Baby-Bud
             <img src="images/baby-bud.png" alt="Project 2">
+            </a>
         </div>
         <div class="project-description">
             <p>
